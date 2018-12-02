@@ -18,7 +18,7 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 800%;
+  font-size: 700%;
   color: #4ECCA3;
 }
 
@@ -41,12 +41,57 @@ footer {
 }
 
 .btn{
-  padding: 1% 2%;
+  padding: 2% 8%;
   margin:5% auto;
   background-color: #4ECCA3;
   border-radius: 3%;
   border-color: white;
   box-shadow: 5px 0 #232931;
   display: block;
+  font-family: 'Indie Flower', cursive;
+  color:white;
+  font-size: 300%;
 
+}
+
+
+
+@media screen and (max-width: 1300px) {
+  .container {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 500%;
+  }
+
+  .btn{
+    padding: 2% 8%;
+    margin:8% auto;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 350%;
+  }
+
+  p {
+    font-size: 280%;
+  }
+
+  .btn{
+    padding: 4% 13%;
+    margin:10% auto;
+
+  }
 }
